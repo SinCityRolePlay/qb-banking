@@ -26,6 +26,55 @@ function GeneratebusinessAccount(acc, sc, bid)
             self.account_name = "Taxi Services"
         elseif self.account_for == "cardealer" then
             self.account_name = "Car Dealership"
+        elseif self.account_for == "judge" then
+            self.account_name = "Judge"
+        elseif self.account_for == "daoffice" then
+            self.account_name = "District Attorney"
+        elseif self.account_for == "lawyer" then
+            self.account_name = "Attorney at Law"
+            -- mechanics
+        elseif self.account_for == "redline" then
+            self.account_name = "Redline Performance"
+        elseif self.account_for == "bennys" then
+            self.account_name = "Benny's Motorworks"
+        elseif self.account_for == "hektic" then
+            self.account_name = "Hektic Customs"
+            -- car Dealers
+        elseif self.account_for == "luauto" then
+            self.account_name = "Luxury Auto"
+        elseif self.account_for == "basspro" then
+            self.account_name = "Bass Pro"
+        elseif self.account_for == "sanders" then
+            self.account_name = "Sanders"
+        elseif self.account_for == "sanders" then
+            self.account_name = "Sanders"
+            -- resturaunt
+        elseif self.account_for == "burgershot" then
+            self.account_name = "Burgershot"
+        elseif self.account_for == "tequilala" then
+            self.account_name = "Tequi La La"
+        elseif self.account_for == "yellowjack" then
+            self.account_name = "Yellow Jack"
+        elseif self.account_for == "noodleexchange" then
+            self.account_name = "Noodle Exchange"
+        elseif self.account_for == "cyberbar" then
+            self.account_name = "Cyber Bar"
+        elseif self.account_for == "catcafe" then
+            self.account_name = "UwU Cafe"
+        elseif self.account_for == "pizza" then
+            self.account_name = "Pizzaria"
+        elseif self.account_for == "beanmachine" then
+            self.account_name = "Bean Machine"
+        elseif self.account_for == "vu" then
+            self.account_name = "Vanilla Unicorn"
+            -- medical marijuana
+        elseif self.account_for == "whitewidow" then
+            self.account_name = "White Widow"
+        elseif self.account_for == "cookies" then
+            self.account_name = "Cookies"
+            -- dev
+        elseif self.account_for == "dev" then
+            self.account_name = "Only Fans"
         end
     end
 
